@@ -1,0 +1,31 @@
+/* Filters.module.css */
+.filtersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+.filterSection {
+    width: 200px;
+  }
+  
+.filterSection label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+.filterSection select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+.filterSection select:focus {
+    border-color: #007bff;
+  }
+  
